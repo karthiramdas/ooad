@@ -1,0 +1,91 @@
+/* Manage Patients Page CSS */
+.manage-patients-container {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Button Styles */
+  .add-patient-button {
+    background: linear-gradient(90deg, #007BFF, #0056b3); /* Gradient for Add Patient button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Space below the button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-patient-button:hover {
+    background: linear-gradient(90deg, #00c6ff, #007BFF); /* Hover effect */
+    transform: translateY(-2px);
+  }
+  
+  /* Add Patient Form */
+  .add-patient-form {
+    margin-bottom: 20px; /* Space below the form */
+  }
+  
+  .add-patient-form input {
+    width: calc(33.33% - 10px); /* Three inputs in one line with margin */
+    margin-right: 10px; /* Space between inputs */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-patient-form input:last-child {
+    margin-right: 0; /* Remove margin from the last input */
+  }
+  
+  .submit-button {
+    background-color: #28a745; /* Green for submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Patients Table */
+  .patients-table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+  }
+  
+  .patients-table th,
+  .patients-table td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 12px; /* Padding in cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .patients-table th {
+    background-color: #007BFF; /* Blue background for headers */
+    color: white; /* White text for headers */
+  }
+  
+  .patients-table tr:hover {
+    background-color: #f2f2f2; /* Light gray background on row hover */
+  }
+  
+  /* View Details Button */
+  .view-details-button {
+    background-color: #28a745; /* Green background for view button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px; /* Padding for button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-details-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
